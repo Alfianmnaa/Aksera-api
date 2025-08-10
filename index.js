@@ -45,7 +45,7 @@ app.use("/leaderboard", leaderboardRoutes);
 
 // get test api
 app.get("/", (req, res) => {
-  res.send("Hallo dari Lentera Umat " + req.path);
+  res.send("Hallo dari Aksera " + req.path);
 });
 
 // connect to database MongoDB
